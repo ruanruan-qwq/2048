@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./2048.css">
+</head>
+<body class="beijing">
+            
+            <header>
+                <h1 class="Title" text="2048">
+                    <!-- 2048 -->
+                </h1>
+
+                
+                <a href="javascript:newgame();"   id="newgamebuttom">
+                    New Game
+                </a>
+
+                <a href="javascript:undo();" id="undobutton">
+                    Back
+                </a>
+                
+                
+                <p class="Score" text="score:">
+                    score:
+                        <span id="score">
+                            0
+                        </span>
+                </p>
+            </header>
+
+            <div id="Large_lattice">
+
+                <div class="Small_lattice" id="grid_cell_0_0"></div>
+                <div class="Small_lattice" id="grid_cell_0_1"></div>
+                <div class="Small_lattice" id="grid_cell_0_2"></div>
+                <div class="Small_lattice" id="grid_cell_0_3"></div>
+
+                <div class="Small_lattice" id="grid_cell_1_0"></div>
+                <div class="Small_lattice" id="grid_cell_1_1"></div>
+                <div class="Small_lattice" id="grid_cell_1_2"></div>
+                <div class="Small_lattice" id="grid_cell_1_3"></div>
+
+                <div class="Small_lattice" id="grid_cell_2_0"></div>
+                <div class="Small_lattice" id="grid_cell_2_1"></div>
+                <div class="Small_lattice" id="grid_cell_2_2"></div>
+                <div class="Small_lattice" id="grid_cell_2_3"></div>
+
+                <div class="Small_lattice" id="grid_cell_3_0"></div>
+                <div class="Small_lattice" id="grid_cell_3_1"></div>
+                <div class="Small_lattice" id="grid_cell_3_2"></div>
+                <div class="Small_lattice" id="grid_cell_3_3"></div>
+            </div>
+            
+            
+            <script src="./jquery.2.0.0.js"></script>
+            <script src="./逻辑.js"></script>
+        
+</body>
+</html>
